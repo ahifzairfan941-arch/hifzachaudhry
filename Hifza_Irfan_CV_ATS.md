@@ -1,0 +1,98 @@
+# Dr. Hifza Irfan Chaudhry
+Islamabad, Pakistan  
+Phone: +92 347 0917720  
+Email: a.hifzairfan941@gmail.com
+
+## Professional Summary
+Sociologist, researcher, and visiting lecturer with 9+ years of teaching and research support experience at Quaid-i-Azam University, Islamabad. Specialized in road safety, criminology, sociology of law, family and marriage studies, and qualitative and quantitative social research. Experienced in survey design, in-depth interviews, focus group discussions, and content analysis across national and international projects.
+
+## Core Competencies
+- Social research design and implementation
+- Qualitative and quantitative data collection
+- In-depth interviews and focus group discussions (FGDs)
+- Content analysis and report writing
+- Academic teaching and curriculum delivery
+- Project coordination and field data management
+
+## Education
+**PhD, Sociology** | School of Sociology, Quaid-i-Azam University, Islamabad, Pakistan | 2021-2025  
+Dissertation: *Reflexive Motorization and Road Safety: An Analysis of Risk Society*
+
+**MPhil, Sociology** | School of Sociology, Quaid-i-Azam University, Islamabad, Pakistan | 2018-2020
+
+**MSc, Sociology** | School of Sociology, Quaid-i-Azam University, Islamabad, Pakistan | 2014-2016
+
+## Research Interests
+- Road safety
+- Sociology of law
+- Criminology
+- Family and marriage studies
+
+## Professional Experience
+**Visiting Lecturer** | School of Sociology, Quaid-i-Azam University, Islamabad, Pakistan | Feb 2021-Present  
+- Deliver undergraduate and graduate-level sociology courses.
+- Supervise student research work and support academic development.
+
+**Research Assistant** | Grand Challenge Fund Project: "Optimum Use of Existing Resources: A Prototype Model on Road Safety" | Islamabad, Pakistan | Sep 2022-Present  
+- Supported project research design, field coordination, and data analysis.
+- Contributed to technical reports and project outputs.
+
+**PhD Studentship (Research Role)** | Local Challenge Fund Project on Solid Waste Management | Rawalpindi, Pakistan | Oct 2021-Aug 2022  
+- Participated in research activities, fieldwork, and analytical reporting.
+
+**Researcher** | Project: "Exchange Marriages in Punjab, Pakistan" | School of Sociology, Quaid-i-Azam University, Islamabad, Pakistan | Jul 2020-Jun 2022  
+- Conducted data collection and thematic analysis for project findings.
+
+**Research Associate** | Project: "Road Safety in Metropolitan Cities of Pakistan" | School of Sociology, Quaid-i-Azam University, Islamabad, Pakistan | Jan 2018-Dec 2019  
+- Assisted with large-scale road safety research activities and dissemination.
+
+**Research Assistant** | Quaid-i-Azam University, Islamabad, Pakistan | Jul 2016-Dec 2017  
+- Provided research and administrative support for departmental projects.
+
+## International Project Experience
+**Literature Reviewer and Data Collector (Pakistan Team)** | Canadian Project on Human Law | 2019-2020
+
+**Project Coordinator (Pakistan Team)** | DAAD Virtual Academic Exchange Program | 2021-2022
+
+**Research Consortium Member** | Humboldt University Project on Belt and Road Initiative (BRI), De:link//Re:link Consortium
+
+## Teaching Experience
+Courses taught include:
+- Social Research Methods (MSc)
+- Qualitative Social Research Methods
+- Criminology
+- Introduction to Sociology (BS)
+- Project Planning and Development
+- Sociology of Human Rights
+- Human Rights and Citizenship
+- Rural Sociology
+
+## Publications
+1. Irfan, H. (2025). *Road Safety, Reflexivity and Smart Technology: Bridging South Asian Challenges with European Strategy*. Current Sociology. (Submitted; under review)
+2. Hayat, A., Irfan, H., Shehzad, H., Haider, S., & Zaman, M. (2025). The rising vehicle counts and deteriorating air quality in Islamabad, Pakistan. *Case Studies on Transport Policy*, 101684.
+3. Nadeem, A., Zaman, M., Sabir, I., Zulqurnain, W., Hashmi, N. U., Irfan, H., et al. (2025). *Road Safety: The Hidden Crisis*. School of Sociology, Quaid-i-Azam University. https://rs.qau.edu.pk/books/
+4. Jabeen, S., Munir, F., Ali, J., Irfan, H., Raoof, R., Sabir, I., & Zaman, M. (2025). Optimum use of existing resources for urban transport planning: A smart public transport model from Pakistan. *RITA*, 23, 199-213.
+5. Aslam, S., Irfan, H., & Zaman, M. (2024). Comparative analysis of road offences in Pakistan: A comparison with Asian countries. *UW Journal of Social Sciences*, 7(2).
+6. Irfan, H., Sharif, A., Sabir, I., Watto, S. A., & Zaman, M. (2023). Ties that blind: A longitudinal study on consanguinity and congenital disorders in Kabirwala, Pakistan. *The Qualitative Report*, 28(11), 3169-3184.
+7. Saddal, M., Rasheed, A., Qureshi, I., Irfan, M., Rahman, A., Abbasi, R. A., Sabir, I., Irfan, H., & Zaman, M. (2023). Public transport network data: A case study of Islamabad. In *18th International Conference on Emerging Technologies (ICET)* (pp. 269-274). https://doi.org/10.1109/ICET59753.2023.10374962
+8. Zaman, M., Sabir, I., & Irfan, H. (2023). *Road Safety in Metropolitan Cities of Pakistan*. School of Sociology, Quaid-i-Azam University. https://rs.qau.edu.pk/books/
+9. Ahmed, M., Irfan, H., & Zaman, M. Child marriage traditions in Pakistan: Reconstructing (in)security and subjective well-being of children. *The Qualitative Report*. (Accepted)
+
+## Manuscripts Under Review
+- Fatima, J., Bilal, M., Aziz, A., Sanam, A., Irfan, M., Qasim, M., Irfan, H., Azam, N. A., Abbasi, R. A., Sabir, I., & Zaman, M. Optimizing public transportation routes using cellular data: Enhancing efficiency and accessibility of public transport. Submitted to *IEEE Transactions on Intelligent Transportation Systems*.
+- Sanam, A., Qureshi, I., Aziz, A., Irfan, M., Irfan, H., Sabir, I., Abbasi, R. A., & Zaman, M. A review of public mobility analysis and its applications in public transport optimization. *Transport Network*. (Under review)
+
+## Patents / Innovations
+- Centralized smart parking with AI-driven camera systems
+- Centralized smart driving licensing system with distributed access control
+- Public transport planning and management using aggregated public mobility
+
+## Language Skills
+- Punjabi: Native
+- English: B2 (Listening, Reading, Writing), B1 (Spoken Production, Spoken Interaction)
+
+## Digital Skills
+- Microsoft Office
+- NVivo
+- SPSS
+- MaxQDA
