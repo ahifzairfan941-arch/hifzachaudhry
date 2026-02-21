@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dr. Hifza Irfan Chaudhry | Public Profile</title>
+  <style>
+    :root {
+      --hero-1: #0e4c78;
+      --hero-2: #2d79a8;
+      --nav: #1f4f74;
+      --accent: #1f5d87;
+      --text: #223041;
+      --muted: #4a5c6e;
+      --page: #eef2f6;
+      --card: #ffffff;
+      --line: rgba(173, 222, 255, 0.35);
+      --dot: rgba(162, 222, 255, 0.45);
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+      color: var(--text);
+      background: var(--page);
+    }
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      padding: 56px 16px 26px;
+      text-align: center;
+      color: #fff;
+      background:
+        radial-gradient(1000px 500px at 15% -20%, rgba(255,255,255,0.20), transparent 60%),
+        radial-gradient(1000px 500px at 90% 0%, rgba(255,255,255,0.16), transparent 60%),
+        linear-gradient(130deg, var(--hero-1), var(--hero-2));
+    }
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(circle at 2px 2px, var(--dot) 2px, transparent 3px) 0 0 / 120px 120px,
+        linear-gradient(16deg, transparent 0 48%, var(--line) 49%, transparent 50%) 0 0 / 260px 220px,
+        linear-gradient(-28deg, transparent 0 48%, var(--line) 49%, transparent 50%) 0 0 / 260px 220px;
+      opacity: 0.55;
+      pointer-events: none;
+    }
+    .hero-inner {
+      position: relative;
+      z-index: 1;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+    .photo {
+      width: 148px;
+      height: 148px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid rgba(255, 255, 255, 0.82);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+    }
+    h1 {
+      margin: 14px 0 6px;
+      font-size: clamp(32px, 4.2vw, 52px);
+      letter-spacing: 0.2px;
+      font-family: "Verdana", "Segoe UI", sans-serif;
+    }
+    .subline {
+      margin: 0;
+      font-size: clamp(18px, 2vw, 30px);
+      font-weight: 600;
+      opacity: 0.95;
+    }
+
+    .quick-links {
+      margin-top: 18px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+    }
+    .quick-links a {
+      color: #fff;
+      text-decoration: none;
+      border: 1px solid rgba(255, 255, 255, 0.8);
+      border-radius: 999px;
+      padding: 8px 16px;
+      font-weight: 600;
+      background: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(2px);
+      transition: background 0.2s ease;
+    }
+    .quick-links a:hover { background: rgba(255, 255, 255, 0.2); }
+
+    .section-nav {
+      background: var(--nav);
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+    }
+    .section-nav ul {
+      margin: 0 auto;
+      max-width: 1100px;
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 6px 14px;
+      padding: 12px 10px;
+    }
+    .section-nav a {
+      color: #f4f8fc;
+      text-decoration: none;
+      font-weight: 700;
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-size: 15px;
+    }
+    .section-nav a:hover { background: rgba(255, 255, 255, 0.13); }
+
+    .content {
+      max-width: 1100px;
+      margin: 0 auto 36px;
+      padding: 22px 16px;
+    }
+    .panel {
+      background: var(--card);
+      border-radius: 12px;
+      padding: 28px;
+      box-shadow: 0 8px 24px rgba(16, 34, 51, 0.08);
+    }
+    section { scroll-margin-top: 70px; margin-bottom: 26px; }
+    h2 {
+      margin: 0 0 10px;
+      color: var(--accent);
+      font-size: 34px;
+      font-family: "Verdana", "Segoe UI", sans-serif;
+      line-height: 1.1;
+    }
+    .underline {
+      width: 70px;
+      height: 3px;
+      background: var(--accent);
+      border-radius: 2px;
+      margin-bottom: 18px;
+    }
+    p { margin: 0 0 10px; line-height: 1.7; }
+    .muted { color: var(--muted); }
+    .split {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+    .list {
+      margin: 0;
+      padding-left: 20px;
+    }
+    .list li { margin-bottom: 8px; }
+
+    .contact a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    footer {
+      text-align: center;
+      color: #5b6f84;
+      font-size: 14px;
+      padding: 12px 0 2px;
+    }
+
+    @media (max-width: 840px) {
+      .split { grid-template-columns: 1fr; }
+      .panel { padding: 22px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <img class="photo" src="hifza_photo.jpeg" alt="Dr. Hifza Irfan Chaudhry profile photo" />
+      <h1>Dr. Hifza Irfan Chaudhry</h1>
+      <p class="subline">Assistant Professor of Sociology</p>
+      <p class="subline">School of Sociology, Quaid-i-Azam University, Islamabad</p>
+
+      <div class="quick-links">
+        <a href="#publications">Publications</a>
+        <a href="#research">Research</a>
+        <a href="#teaching">Teaching</a>
+        <a href="mailto:a.hifzairfan941@gmail.com">Email</a>
+      </div>
+    </div>
+  </header>
+
+  <nav class="section-nav" aria-label="Section Navigation">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#positions">Positions</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#teaching">Teaching</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#honours">Honours</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main class="content">
+    <div class="panel">
+      <section id="about">
+        <h2>About</h2>
+        <div class="underline"></div>
+        <p>
+          Dr. Hifza Irfan Chaudhry is a sociologist whose work integrates academic scholarship,
+          teaching, and applied social research. Her focus areas include road safety,
+          sociology of law, criminology, and family and marriage studies.
+        </p>
+        <p class="muted">
+          She has more than 9 years of university-level teaching and research support experience,
+          with strong expertise in surveys, in-depth interviews, FGDs, and qualitative content analysis.
+        </p>
+      </section>
+
+      <section id="education">
+        <h2>Education</h2>
+        <div class="underline"></div>
+        <ul class="list">
+          <li><strong>PhD Sociology</strong>, Quaid-i-Azam University, Islamabad (2021-2025)</li>
+          <li><strong>MPhil Sociology</strong>, Quaid-i-Azam University, Islamabad (2018-2020)</li>
+          <li><strong>MSc Sociology</strong>, Quaid-i-Azam University, Islamabad (2014-2016)</li>
+        </ul>
+      </section>
+
+      <section id="positions">
+        <h2>Positions</h2>
+        <div class="underline"></div>
+        <ul class="list">
+          <li><strong>Assistant Professor</strong>, School of Sociology, Quaid-i-Azam University (Feb 2021-Present)</li>
+          <li><strong>Research Assistant</strong>, Grand Challenge Fund, Road Safety Prototype Model (Sep 2022-Present)</li>
+          <li><strong>Researcher</strong>, Exchange Marriages in Punjab (Jul 2020-Jun 2022)</li>
+          <li><strong>Research Associate</strong>, Road Safety in Metropolitan Cities of Pakistan (Jan 2018-Dec 2019)</li>
+          <li><strong>Research Assistant</strong>, Quaid-i-Azam University (Jul 2016-Dec 2017)</li>
+        </ul>
+      </section>
+
+      <section id="research">
+        <h2>Research</h2>
+        <div class="underline"></div>
+        <div class="split">
+          <div>
+            <p><strong>Research Interests</strong></p>
+            <ul class="list">
+              <li>Road Safety</li>
+              <li>Sociology of Law</li>
+              <li>Criminology</li>
+              <li>Family and Marriages</li>
+            </ul>
+          </div>
+          <div>
+            <p><strong>Methods and Tools</strong></p>
+            <ul class="list">
+              <li>Survey design and field implementation</li>
+              <li>In-depth interviews and FGDs</li>
+              <li>Content analysis and reporting</li>
+              <li>SPSS, NVivo, MaxQDA, Microsoft Office</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="publications">
+        <h2>Publications</h2>
+        <div class="underline"></div>
+        <ul class="list">
+          <li>Hayat, A., Irfan, H., Shehzad, H., Haider, S., &amp; Zaman, M. (2025). The rising vehicle counts and deteriorating air quality in Islamabad, Pakistan. <em>Case Studies on Transport Policy</em>, 101684.</li>
+          <li>Aslam, S., Irfan, H., &amp; Zaman, M. (2024). Comparative analysis of road offences in Pakistan: A comparison with Asian countries. <em>UW Journal of Social Sciences</em>, 7(2).</li>
+          <li>Irfan, H., Sharif, A., Sabir, I., Watto, S. A., &amp; Zaman, M. (2023). Ties that blind: A longitudinal study on consanguinity and congenital disorders in Kabirwala, Pakistan. <em>The Qualitative Report</em>, 28(11), 3169-3184.</li>
+          <li>Saddal, M., et al. (2023). Public transport network data: A case study of Islamabad. <em>ICET 2023</em>, 269-274. DOI: 10.1109/ICET59753.2023.10374962</li>
+          <li>Irfan, H. (2025). Road Safety, Reflexivity and Smart Technology: Bridging South Asian Challenges with European Strategy. <em>Current Sociology</em>. Under review.</li>
+        </ul>
+      </section>
+
+      <section id="teaching">
+        <h2>Teaching</h2>
+        <div class="underline"></div>
+        <ul class="list">
+          <li>Social Research Methods</li>
+          <li>Qualitative Social Research Methods</li>
+          <li>Criminology</li>
+          <li>Introduction to Sociology</li>
+          <li>Project Planning and Development</li>
+          <li>Sociology of Human Rights</li>
+          <li>Human Rights and Citizenship</li>
+          <li>Rural Sociology</li>
+        </ul>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="underline"></div>
+        <ul class="list">
+          <li>Canadian Project on Human Law (Literature Reviewer and Data Collector, Pakistan Team), 2019-2020</li>
+          <li>DAAD Virtual Academic Exchange Program (Project Coordinator, Pakistan Team), 2021-2022</li>
+          <li>Humboldt University BRI Project (De:link//Re:link Research Consortium), member</li>
+          <li>Local Challenge Fund Project on Solid Waste Management (PhD Studentship Research Role), 2021-2022</li>
+        </ul>
+      </section>
+
+      <section id="honours">
+        <h2>Honours</h2>
+        <div class="underline"></div>
+        <ul class="list">
+          <li>PhD in Sociology (Completed)</li>
+          <li>Contributing author to high-impact research in transport and social policy</li>
+          <li>Active contributor to interdisciplinary road safety and public mobility research</li>
+        </ul>
+      </section>
+
+      <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <div class="underline"></div>
+        <p>Email: <a href="mailto:a.hifzairfan941@gmail.com">a.hifzairfan941@gmail.com</a></p>
+        <p>Location: Islamabad, Pakistan</p>
+      </section>
+    </div>
+
+    <footer>
+      © 2026 Dr. Hifza Irfan Chaudhry. All rights reserved.
+    </footer>
+  </main>
+</body>
+</html>
